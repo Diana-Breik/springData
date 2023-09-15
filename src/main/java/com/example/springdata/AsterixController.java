@@ -10,7 +10,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api")
 public class AsterixController {
-    private List<Character> characterList = new ArrayList<>(List.of(
+    private final List<Character> characterList = new ArrayList<>(List.of(
             new Character("1", "Asterix", 35, "Krieger"),
             new Character("2", "Obelix", 35, "Lieferant"),
             new Character("3", "Miraculix", 60, "Druide"),
