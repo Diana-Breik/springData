@@ -10,15 +10,15 @@ import java.util.List;
 @RestController
 @RequestMapping("/api")
 public class AsterixController {
-    private List<Character> characterList;
+    private CharacterRepo characterRepo;
 
-    public AsterixController(List<Character> characterList) {
-        this.characterList = characterList;
+    public AsterixController(CharacterRepo characterRepo) {
+        this.characterRepo = characterRepo;
     }
 
     @GetMapping("/asterix/characters")
-    public List<Character> getCharacterList(){
-        return characterList;
+    public  List<Character> getCharacterList(){
+        return characterRepo.findAll();
     }
 
 
