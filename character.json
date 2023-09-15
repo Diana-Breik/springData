@@ -1,0 +1,60 @@
+[{
+  "id": "1",
+  "name": "Asterix",
+  "age": 35,
+  "profession": "Krieger"
+},
+{
+"id": "2",
+"name": "Obelix",
+"age": 35,
+"profession": "Lieferant"
+},
+{
+"id": "3",
+"name": "Miraculix",
+"age": 60,
+"profession": "Druide"
+},
+{
+"id": "4",
+"name": "Majestix",
+"age": 60,
+"profession": "Häuptling"
+},
+{
+"id": "5",
+"name": "Troubadix",
+"age": 25,
+"profession": "Barden"
+},
+{
+"id": "6",
+"name": "Gutemine",
+"age": 35,
+"profession": "Häuptlingsfrau"
+},
+{
+"id": "7",
+"name": "Idefix",
+"age": 5,
+"profession": "Hund"
+},
+{
+"id": "8",
+"name": "Geriatrix",
+"age": 70,
+"profession": "Rentner"
+},
+{
+"id": "9",
+"name": "Automatix",
+"age": 35,
+"profession": "Schmied"
+},
+{
+"id": "10",
+"name": "Grockelix",
+"age": 35,
+"profession": "Fischer"
+}]
